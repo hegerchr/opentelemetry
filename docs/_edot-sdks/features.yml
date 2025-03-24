@@ -29,7 +29,7 @@ features:
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -38,91 +38,91 @@ features:
       min_version: 
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
       status: ga
-      min_version: 
+      min_version: 1.0
     iOS:
       status: ga
-      min_version: 
+      min_version: v1.0
   - name: Zero-code instrumentation
     link: https://opentelemetry.io/docs/concepts/instrumentation/zero-code/
     min_stack_version:
     is_sub_feature: true
     .NET:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Java:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Node.js:
       status: ga
       min_version: 1.0
     PHP:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
-      status: 
+      status: not-available
       min_version: 
     iOS:
-      status: 
+      status: not-available
       min_version: 
   - name: Head-based Sampling
     link: https://opentelemetry.io/docs/concepts/sampling/#head-sampling
     min_stack_version:
     is_sub_feature: true
     .NET:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Java:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Node.js:
       status: ga
       min_version: 1.0
     PHP:
-      status: 
-      min_version: 
+      status: not-available
+      min_version:
     Python:
       status: ga
       min_version: 1.0
     Android:
-      status: 
+      status: not-available
       min_version: 
     iOS:
-      status: 
-      min_version: 
+      status: ga
+      min_version: v1.0
   - name: Baggage
     link: https://opentelemetry.io/docs/concepts/signals/baggage/
     min_stack_version:
     is_sub_feature: true
     .NET:
-      status:
-      min_version:
+      status: ga
+      min_version: 1.0
     Java:
-      status:
-      min_version:
+      status: ga
+      min_version: 1.0
     Node.js:
       status: ga
       min_version: 1.0
     PHP:
-      status:
-      min_version:
+      status: ga
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
-      status:
+      status: not-available
       min_version:
     iOS:
-      status:
-      min_version:
+      status: ga
+      min_version: v1.0
   - name: Inferred Spans
     link: ../edot-sdks/java/features#inferred-spans
     min_stack_version:
@@ -137,8 +137,8 @@ features:
       status: not-available
       min_version: 
     PHP:
-      status: not-available
-      min_version: 
+      status: tech-preview
+      min_version: 1.0
     Python:
       status: not-available
       min_version: 
@@ -153,7 +153,7 @@ features:
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -162,23 +162,23 @@ features:
       min_version:
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: tech-preview
       min_version: 
     Android:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     iOS:
-      status: 
-      min_version: 
+      status: ga
+      min_version: v1.0
   - name: Logs Correlation
     link: https://opentelemetry.io/docs/specs/otel/logs/#opentelemetry-solution
     is_sub_feature: true
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -187,22 +187,22 @@ features:
       min_version:
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: tech-preview
       min_version: 
     Android:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     iOS:
-      status: 
-      min_version: 
+      status: ga
+      min_version: v1.0
   - name: Metrics Collection
     link: https://opentelemetry.io/docs/concepts/signals/metrics/
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -211,23 +211,23 @@ features:
       min_version: 
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     iOS:
-      status: 
-      min_version: 
+      status: tech-preview
+      min_version: v0.7
   - name: Custom Metrics
     link:
     is_sub_feature: true
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -236,16 +236,16 @@ features:
       min_version: 
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     iOS:
-      status: 
-      min_version:
+      status: tech-preview
+      min_version: v0.7
   - name: Agent Health Monitoring
     link:
     is_sub_feature: true
@@ -261,7 +261,7 @@ features:
       min_version: 
     PHP:
       status: not-available
-      min_version: 
+      min_version:
     Python:
       status: not-available
       min_version: 
@@ -276,32 +276,32 @@ features:
     is_sub_feature: true
     min_stack_version:
     .NET:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Java:
-      status: 
-      min_version: 
+      status: ga
+      min_version: 1.0
     Node.js:
       status: tech-preview
       min_version:
     PHP:
-      status: 
-      min_version: 
+      status: not-available
+      min_version:
     Python:
-      status: 
+      status: not-available
       min_version: 
     Android:
-      status: 
+      status: not-available
       min_version: 
     iOS:
-      status: 
+      status: not-available
       min_version: 
   - name: Capturing Errors / Exceptions
     link:
     min_stack_version:
     .NET:
       status: ga
-      min_version: 
+      min_version: 1.0
     Java:
       status: ga
       min_version: 
@@ -310,16 +310,16 @@ features:
       min_version: 
     PHP:
       status: ga
-      min_version: 
+      min_version: 1.0
     Python:
       status: ga
       min_version: 1.0
     Android:
       status: ga
-      min_version: 
+      min_version: 1.0
     iOS:
       status: ga
-      min_version:
+      min_version: v1.0
   - name: Crash Reporting
     link:
     is_sub_feature: true
@@ -340,11 +340,11 @@ features:
       status: not-applicable
       min_version: 
     Android:
-      status: ga
+      status: not-available
       min_version: 
     iOS:
       status: ga
-      min_version:
+      min_version: v1.0
   - name: Central Configuration
     link:
     min_stack_version:
@@ -368,7 +368,7 @@ features:
       min_version: 
     iOS:
       status: not-available
-      min_version:
+      min_version: 
   - name: Profiling Integration
     link: ../edot-sdks/java/features#elastic-universal-profiling-integration
     min_stack_version:
